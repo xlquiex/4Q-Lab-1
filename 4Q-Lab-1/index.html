@@ -10,7 +10,7 @@
 
 <body>
 
-    <form name="store" action="checkout.html" onsumbit = "return validateCheckout()">
+    <form name="store" action="checkout.html" onsumbit = "return storeProcess()">
         <label for="name">Name:</label>
         <input type="text" name="name" id="name" required>
 
@@ -22,7 +22,7 @@
         <br><br>
 
         <label for="Balance">Balance:</label>
-        <input type="number" name="Balance" id="Balance" required max="100000" min="0.1">
+        <input type="number" name="Balance" id="Balance" required max="100000" min="0">
 
         <br><br>
         <button type="submit">Submit</button>
@@ -33,5 +33,6 @@
     <script src="index.js"></script>
 
     <body>
+
 
 </html>
