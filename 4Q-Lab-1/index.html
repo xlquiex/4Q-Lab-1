@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Webpage</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Carlo Cocjin">
+</head>
+
+<body>
+
+    <form name="store" action="checkout.html" onsumbit = "return validateCheckout()">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <br><br>
+
+        <label for="groceryItem">Number Of Grocery Items:</label>
+        <input type="number" name="groceryItem" id="groceryItem" required>
+
+        <br><br>
+
+        <label for="Balance">Balance:</label>
+        <input type="number" name="Balance" id="Balance" required max="100000" min="0.1">
+
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <script src="index.js"></script>
+
+    <body>
+
+</html>
